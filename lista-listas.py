@@ -49,12 +49,13 @@ for i in range(0, len(notas_juntas), 3):
 print(notas)
 
 
+# Função para gerar código automático 3 dígitos
 def gerar_codigo():
     return str(randint(0, 999))
 
 
+# Gerando o código de cada aluno e armazenando na tupla
 codigo_estudantes = []
-
 
 for i in range(len(nomes)):
 
